@@ -1,10 +1,13 @@
 const display = document.querySelector('.input');
 let currentInput = '';
-let memory = 0;
 
 // Function for update the display
 function updateDisplay() {
   display.value = currentInput;
+}
+// Function for deleting
+function de() {
+  display.value =  display.value.toString().slice(0,-1);
 }
 
 // Function for  to clear the display
@@ -13,22 +16,10 @@ function clearDisplay() {
   updateDisplay();
 }
 
-// function for append text to the display
+// function for text to the display
 function appendToDisplay(value) {
   currentInput += value;
   updateDisplay();
-}
-
-// for to add to memory
-function memoryAdd() {
-  memory += parseFloat(currentInput);
-  clearDisplay();
-}
-
-// for subtract from memory
-function memorySubtract() {
-  memory -= parseFloat(currentInput);
-  clearDisplay();
 }
 //for calculating percentage
 function calculatePercentage() {

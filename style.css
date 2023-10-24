@@ -65,3 +65,21 @@
     height: 100vh;
     margin: 0;
   }
+#operator{
+  color: #f5d7db;
+  background-color:#294d61;
+  
+  
+}
+#operator:hover{
+  background-color: #6da5c0;
+  color: #f5d7db;
+}
+#equal{
+  color:#86a8cf ;
+  background-color: #072e33;
+}
+#equal:hover{
+  color:#f5d7db ;
+  background-color: #0f9690;
+}
