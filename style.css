@@ -76,11 +76,19 @@
   background-color: #6da5c0;
   color: #f5d7db;
 }
-#equal{
-  color:#86a8cf ;
-  background-color: #072e33;
-}
-#equal:hover{
+#button-equal:hover{
   color:#f5d7db ;
   background-color: #0f9690;
+}
+#button-equal {
+    width: 142px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid #05161a;
+    border-radius: 50px;
+    color:#86a8cf ;
+    background-color: #072e33;
+    font-weight: bolder;
+    font-size: larger;
+    user-select: none; /* Change the background color as needed */
 }

@@ -13,12 +13,12 @@
     <h1 class="text-center">MY CALCULATOR</h1>
     <div class="container flex flex-col items-center mx-auto m-w-20">
       <div class="row">
-        <input class="input" type="text" readonly placeholder="0">
+        <input class="input" type="text" id="display" readonly>
       </div>
       <div class="row">
         <button class="button" onclick="clearDisplay()">C</button>
-        <button class="button" onclick="de()">DE</button>
         <button class="button" onclick="calculatePercentage()" id="operator">%</button>
+        <button class="button" onclick="toDisplay('.')" id="operator">.</button>
         <button class="button" onclick="toDisplay('+')" id="operator">+</button>
       </div>
       <div class="row">
@@ -42,8 +42,7 @@
       <div class="row">
         <button class="button" onclick="toDisplay('0')">0</button>
         <button class="button" onclick="toDisplay('00')">00</button>
-        <button class="button" onclick="toDisplay('.')">.</button>
-        <button class="button" onclick="calculate()" id="equal">=</button>
+        <button class="button" onclick="calculate()" id="button-equal">=</button>
       </div>
     </div>
   </div>
