@@ -58,6 +58,7 @@
     padding: 20px 20px ;
     background-color: #0f9690;
     filter: drop-shadow(#f5d7db 8.5px 12px 10px);
+    user-select: none;
   }
   body {
     display: flex;
@@ -65,12 +66,11 @@
     align-items: center;
     height: 100vh;
     margin: 0;
+    user-select: none;
   }
 #operator{
   color: #f5d7db;
   background-color:#294d61;
-  
-  
 }
 #operator:hover{
   background-color: #6da5c0;
@@ -90,5 +90,5 @@
     background-color: #072e33;
     font-weight: bolder;
     font-size: larger;
-    user-select: none; /* Change the background color as needed */
+    user-select: none;
 }
