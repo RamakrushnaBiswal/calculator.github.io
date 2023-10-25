@@ -1,6 +1,5 @@
 const display = document.querySelector('.input');
 let currentInput = '';
-
 // Function for update the display
 function updateDisplay() {
   display.value = currentInput;
@@ -9,15 +8,13 @@ function updateDisplay() {
 function de() {
   display.value =  display.value.toString().slice(0,-1);
 }
-
 // Function for  to clear the display
 function clearDisplay() {
   currentInput = '';
   updateDisplay();
 }
-
 // function for text to the display
-function appendToDisplay(value) {
+function toDisplay(value) {
   currentInput += value;
   updateDisplay();
 }
